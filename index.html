@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jared Lomangino - Web Dev</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="background"></section>
+    <!-- ---home-container--- -->
+    <div class="container" id="container">
+      <div class="side-nav">
+        <span class="selected-bar" id="selected-bar"></span>
+        <img src="Images\icon.jpg" alt="" id="picture" />
+        <nav>
+          <ul>
+            <li><a href="#" id="home">Home</a></li>
+            <li><a href="#" id="projects">Projects</a></li>
+            <li><a href="#" id="contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="containers">
+        <div class="home-container" id="home-container">
+          <div class="home-div">
+            <h2>Home</h2>
+            <h1>Jared Lomangino</h1>
+            <h3>Front-End Developer</h3>
+            <p>
+              Passionate about turning ideas <br />
+              into beautiful user experiences.
+            </p>
+          </div>
+        </div>
+        <!-- ---home-container--- -->
+
+        <!-- ---projects-container--- -->
+        <div class="projects-container" id="projects-container">
+          <div class="projects-div">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+              <div class="project">
+                <a
+                  href="https://dev.to/ellen_dev/two-ways-to-achieve-an-image-colour-overlay-with-css-eio"
+                >
+                  <img src="Images\cocktail.PNG" alt="" />
+                </a>
+                <h4>Cocktail Demand</h4>
+              </div>
+              <div class="project">
+                <a
+                  href="https://dev.to/ellen_dev/two-ways-to-achieve-an-image-colour-overlay-with-css-eio"
+                >
+                  <img src="Images\sushi.PNG" alt="" />
+                </a>
+                <h4>Sushi Parlour Restaurant</h4>
+              </div>
+              <div class="project">
+                <a
+                  href="https://dev.to/ellen_dev/two-ways-to-achieve-an-image-colour-overlay-with-css-eio"
+                >
+                  <img src="Images\tbell.PNG" alt="" />
+                </a>
+                <h4>Taco Bell Menu Clone</h4>
+              </div>
+              <div class="project">
+                <a
+                  href="https://dev.to/ellen_dev/two-ways-to-achieve-an-image-colour-overlay-with-css-eio"
+                >
+                  <img src="Images\portfolio.PNG" alt="" />
+                </a>
+                <h4>Portfolio</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ---projects-container--- -->
+
+        <!-- ---contact-container--- -->
+        <div class="contact-form">
+          <form action="html_form_send.php" id="contact-form" method="post">
+            <input
+              type="text"
+              name="name"
+              class="form-control"
+              placeholder="Your Name"
+              required
+            /><br />
+            <input
+              type="email"
+              name="email"
+              class="form-control"
+              placeholder="Your Email"
+              required
+            /><br />
+            <textarea
+              name="message"
+              class="form-control"
+              rows="4"
+              required
+            ></textarea
+            ><br />
+            <input type="submit" class="form-control submit" value="SEND" />
+          </form>
+        </div>
+        <!-- ---contact-container--- -->
+      </div>
+    </div>
+
+    <script src="source.js"></script>
+  </body>
+</html>

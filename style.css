@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.background {
+  height: 100vh;
+  background-image: url(Images/bg.png);
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+  background-position: center;
+}
+
+.container {
+  height: 70vh;
+  width: 60vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #1c172c;
+  display: flex;
+  border: 1px solid pink;
+}
+
+.side-nav {
+  background: linear-gradient(180deg, #111a32, #301735, #12122b);
+  flex: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.side-nav img {
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid pink;
+  margin: 50px 0px 75px 0px;
+}
+
+.side-nav ul li {
+  list-style-type: none;
+}
+
+.side-nav ul li a {
+  display: block;
+  padding: 10px 95px;
+  margin-bottom: 40px;
+  text-decoration: none;
+  color: rgb(221, 221, 221);
+  font-size: 25px;
+  transition: 0.3s;
+}
+
+.side-nav ul li a:hover {
+  background: rgba(77, 77, 77, 0.1);
+}
+
+.side-nav ul li a:focus {
+  color: pink;
+  background: rgba(77, 77, 77, 0.1);
+}
+
+.side-nav .selected-bar {
+  height: 57px;
+  width: 15px;
+  background-color: pink;
+  position: absolute;
+  top: 35%;
+  left: 0;
+  transition: 0.3s;
+}
+.containers {
+  flex: 75%;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  -ms-overflow-style: none;
+}
+
+.containers::-webkit-scrollbar {
+  display: none;
+}
+
+.home-container .home-div h2,
+.projects-container .projects-div h2 {
+  font-size: 30px;
+  color: pink;
+  width: 90px;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  margin: 75px 0px 100px 50px;
+}
+
+.home-container .home-div h1 {
+  color: #fff;
+  font-size: 40px;
+  margin-left: 50px;
+}
+
+.home-container .home-div h3 {
+  color: pink;
+  font-size: 25px;
+  margin: 0px 0px 30px 50px;
+}
+
+.home-container .home-div p {
+  color: rgb(194, 194, 194);
+  margin-left: 50px;
+  font-size: 20px;
+  margin-bottom: 500px;
+}
+
+.projects-container .projects-div h2 {
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.projects-grid {
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: repeat(2, 0fr);
+}
+
+.projects-grid .project {
+  margin: 20px;
+  background: black;
+  height: 200px;
+  text-align: center;
+  border: 2px solid rgba(255, 192, 203, 0.527);
+}
+
+.projects-grid .project img {
+  width: 350px;
+  height: 200px;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+.projects-grid .project img:hover {
+  cursor: pointer;
+  opacity: 0.3;
+}
+
+.projects-grid .project a {
+  text-decoration: none;
+}
+
+.projects-grid .project h4 {
+  color: rgb(160, 160, 160);
+  margin-bottom: 10px;
+}
