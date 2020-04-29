@@ -41,33 +41,25 @@
             <h2>Projects</h2>
             <div class="projects-grid">
               <div class="project">
-                <a
-                  href="https://dev.to/ellen_dev/two-ways-to-achieve-an-image-colour-overlay-with-css-eio"
-                >
+                <a href="https://stoic-raman-14e391.netlify.app/">
                   <img src="Images\cocktail.PNG" alt="" />
                 </a>
                 <h4>Cocktail Demand</h4>
               </div>
               <div class="project">
-                <a
-                  href="https://dev.to/ellen_dev/two-ways-to-achieve-an-image-colour-overlay-with-css-eio"
-                >
+                <a href="https://relaxed-mahavira-0cd5bf.netlify.app/">
                   <img src="Images\sushi.PNG" alt="" />
                 </a>
                 <h4>Sushi Parlour Restaurant</h4>
               </div>
               <div class="project">
-                <a
-                  href="https://dev.to/ellen_dev/two-ways-to-achieve-an-image-colour-overlay-with-css-eio"
-                >
+                <a href="https://nostalgic-swirles-ffa96c.netlify.app/">
                   <img src="Images\tbell.PNG" alt="" />
                 </a>
                 <h4>Taco Bell Menu Clone</h4>
               </div>
               <div class="project">
-                <a
-                  href="https://dev.to/ellen_dev/two-ways-to-achieve-an-image-colour-overlay-with-css-eio"
-                >
+                <a href="#">
                   <img src="Images\portfolio.PNG" alt="" />
                 </a>
                 <h4>Portfolio</h4>
@@ -78,35 +70,41 @@
         <!-- ---projects-container--- -->
 
         <!-- ---contact-container--- -->
-        <div class="contact-form">
+        <div class="contact-form" id="contact-container">
+          <h2>Contact</h2>
           <form
             name="contact"
             id="contact-form"
             method="post"
             data-netlify="true"
           >
-            <input
-              type="text"
-              name="name"
-              class="form-control"
-              placeholder="Your Name"
-              required
-            /><br />
-            <input
-              type="email"
-              name="email"
-              class="form-control"
-              placeholder="Your Email"
-              required
-            /><br />
-            <textarea
-              name="message"
-              class="form-control"
-              rows="4"
-              required
-            ></textarea
-            ><br />
-            <input type="submit" class="form-control submit" value="SEND" />
+            <div class="inputs">
+              <input
+                type="text"
+                name="name"
+                class="form-control"
+                placeholder="Name"
+                required
+              />
+
+              <input
+                type="email"
+                name="email"
+                class="form-control"
+                placeholder="Email"
+                required
+              /><br />
+            </div>
+            <div class="inputs-2">
+              <textarea
+                name="message"
+                class="form-control"
+                placeholder="Message..."
+                rows="4"
+                required
+              ></textarea>
+              <input type="submit" class="form-control submit" value="SEND" />
+            </div>
           </form>
         </div>
         <!-- ---contact-container--- -->

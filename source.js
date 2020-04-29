@@ -5,6 +5,7 @@ const selectedBar = document.getElementById("selected-bar");
 
 const projectsContainer = document.getElementById("projects-container");
 const homeContainer = document.getElementById("home-container");
+const contactContainer = document.getElementById("contact-container");
 
 function onMouseUp(e) {
   const activeArea = document.activeElement;
@@ -17,6 +18,7 @@ function onMouseUp(e) {
     projectsContainer.scrollIntoView();
   } else if (activeArea.id == "contact") {
     selectedBar.style.top = "65%";
+    contactContainer.scrollIntoView();
   }
 }
 
