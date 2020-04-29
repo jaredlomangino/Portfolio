@@ -113,9 +113,28 @@
   color: rgb(194, 194, 194);
   margin-left: 50px;
   font-size: 20px;
-  margin-bottom: 500px;
 }
 
+.home-container .icons {
+  display: flex;
+  margin-bottom: 500px;
+  margin-left: 50px;
+}
+
+.home-container .icons img {
+  max-width: 50px;
+  margin-top: 50px;
+  margin-right: 75px;
+}
+
+.home-container {
+  display: flex;
+}
+
+.home-container .circles img {
+  width: 450px;
+  opacity: 0.5;
+}
 .projects-container .projects-div h2 {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -198,7 +217,7 @@
   width: 200px;
   height: 50px;
   margin: auto;
-  margin-bottom: 500px;
+  margin-bottom: 200px;
   border-radius: 20px;
   border: 2px solid pink;
   background: rgba(76, 62, 119, 0.6);
@@ -213,4 +232,26 @@
   font-weight: bold;
   font-size: 16px;
   border: 2px solid rgba(76, 62, 119, 0.6);
+}
+
+@media screen and (max-width: 1600px) {
+  .projects-grid {
+    grid-template-columns: repeat(1, 0fr);
+  }
+}
+@media screen and (max-width: 1200px) {
+  .side-nav ul li a {
+    padding: 10px 45px;
+  }
+  .container {
+    width: 70vw;
+  }
+}
+@media screen and (max-width: 800px) {
+  .side-nav {
+    display: none;
+  }
+  .container {
+    width: 90vw;
+  }
 }
