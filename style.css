@@ -127,10 +127,6 @@
   margin-right: 75px;
 }
 
-.home-container {
-  display: flex;
-}
-
 .home-container .circles img {
   width: 450px;
   opacity: 0.5;
