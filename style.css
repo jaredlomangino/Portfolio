@@ -26,6 +26,14 @@
   border: 1px solid pink;
 }
 
+.containers {
+  flex: 75%;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  -ms-overflow-style: none;
+}
+
 .side-nav {
   background: linear-gradient(180deg, #111a32, #301735, #12122b);
   flex: 25%;
@@ -73,13 +81,6 @@
   top: 35%;
   left: 0;
   transition: 0.3s;
-}
-.containers {
-  flex: 75%;
-  display: flex;
-  flex-direction: column;
-  overflow: auto;
-  -ms-overflow-style: none;
 }
 
 .containers::-webkit-scrollbar {
@@ -290,9 +291,5 @@
 
   .contact-form .inputs-2 textarea {
     width: 300px;
-  }
-
-  .projects-container {
-    display: none;
   }
 }
