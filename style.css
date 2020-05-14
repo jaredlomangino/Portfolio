@@ -26,11 +26,6 @@
   border: 1px solid pink;
 }
 
-.containers {
-  display: flex;
-  flex-direction: column;
-}
-
 .side-nav {
   background: linear-gradient(180deg, #111a32, #301735, #12122b);
   flex: 25%;
