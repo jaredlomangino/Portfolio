@@ -255,7 +255,7 @@
     width: 90vw;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .home-container .circles img {
     display: none;
   }
