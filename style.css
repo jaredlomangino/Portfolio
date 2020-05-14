@@ -295,4 +295,8 @@
   .contact-form .inputs-2 textarea {
     width: 300px;
   }
+
+  .home-container {
+    display: none;
+  }
 }
