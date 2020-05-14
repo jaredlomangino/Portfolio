@@ -255,3 +255,44 @@
     width: 90vw;
   }
 }
+@media screen and (max-width: 400px) {
+  .home-container .circles img {
+    display: none;
+  }
+
+  .container {
+    height: 90vh;
+    width: 95vw;
+  }
+
+  .home-container .home-div h1 {
+    font-size: 35px;
+  }
+  .home-container .home-div h2,
+  .home-container .home-div h3,
+  .home-container .home-div h1,
+  .home-container .home-div p,
+  .home-container .icons {
+    margin-left: 20px;
+  }
+
+  .projects-grid {
+    margin-bottom: 100px;
+  }
+
+  .home-container .icons {
+    margin-bottom: 100px;
+  }
+
+  .projects-grid .project img {
+    width: 300px;
+  }
+
+  .contact-form .inputs input {
+    width: 145px;
+  }
+
+  .contact-form .inputs-2 textarea {
+    width: 300px;
+  }
+}
